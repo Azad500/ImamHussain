@@ -1,0 +1,10 @@
+@mixin responsive768 {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin responsive525 {
+  @media screen and (max-width: 525px) {
+    @content;
+  }
+}
